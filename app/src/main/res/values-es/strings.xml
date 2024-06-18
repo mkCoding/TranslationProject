@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Proyecto de localización de idiomas</string>
+    <string name="translate">Traducir</string>
+    <string name="paragraph">En la era digital actual, el desarrollo de aplicaciones móviles desempeña un papel fundamental en la transformación de las empresas y la mejora de la participación de los usuarios. Las aplicaciones móviles brindan una forma directa y eficiente para que las empresas se conecten con sus clientes, ofreciendo experiencias y servicios personalizados al alcance de su mano. Dado que la mayoría de los usuarios de Internet acceden al contenido a través de dispositivos móviles, tener una aplicación funcional y bien diseñada es crucial para llegar a una audiencia más amplia y mantenerse competitivo en el mercado. Además, las aplicaciones móviles permiten a las empresas aprovechar tecnologías avanzadas como AI, AR e IoT, creando soluciones innovadoras que impulsan el crecimiento y agilizan las operaciones. A medida que el uso de dispositivos móviles continúa aumentando a nivel mundial, invertir en el desarrollo de aplicaciones móviles no sólo aumenta la visibilidad de la marca sino que también fomenta la lealtad y la satisfacción del cliente a largo plazo.</string>
+    <string name="select_locale">Seleccionar configuración regional</string>
+</resources>

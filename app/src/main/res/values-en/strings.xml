@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LanguageLocalizationProject</string>
+    <string name="translate">Translate</string>
+    <string name="paragraph">In today\'s digital age, mobile app development plays a pivotal role in transforming businesses and enhancing user engagement. Mobile apps provide a direct and efficient way for companies to connect with their customers, offering personalized experiences and services at their fingertips. With the majority of internet users accessing content through mobile devices, having a well-designed and functional app is crucial for reaching a broader audience and staying competitive in the market. Moreover, mobile apps enable businesses to leverage advanced technologies such as AI, AR, and IoT, creating innovative solutions that drive growth and streamline operations. As mobile usage continues to soar globally, investing in mobile app development not only boosts brand visibility but also fosters long-term customer loyalty and satisfaction.</string>
+    <string name="select_locale">Select Locale</string>
+</resources>

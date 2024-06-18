@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Projet de localisation de langue</string>
+    <string name="translate">Traduire</string>
+    <string name="paragraph">À l\'ère numérique d\'aujourd\'hui, le développement d\'applications mobiles joue un rôle central dans la transformation des entreprises et l\'amélioration de l\'engagement des utilisateurs. Les applications mobiles offrent aux entreprises un moyen direct et efficace de se connecter avec leurs clients, en leur offrant des expériences et des services personnalisés à portée de main. Alors que la majorité des internautes accèdent au contenu via des appareils mobiles, disposer d’une application bien conçue et fonctionnelle est crucial pour atteindre un public plus large et rester compétitif sur le marché. De plus, les applications mobiles permettent aux entreprises de tirer parti de technologies avancées telles que l’IA, la RA et l’IoT, créant ainsi des solutions innovantes qui stimulent la croissance et rationalisent les opérations. Alors que l\'utilisation du mobile continue de croître à l\'échelle mondiale, investir dans le développement d\'applications mobiles améliore non seulement la visibilité de la marque, mais favorise également la fidélité et la satisfaction des clients à long terme.</string>
+    <string name="select_locale">Sélectionnez les paramètres régionaux</string>
+</resources>
