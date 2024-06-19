@@ -5,7 +5,11 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.Text
@@ -35,18 +39,23 @@ fun TitleScreen (){
 
     Column(
         modifier = Modifier
-            .fillMaxSize(),
+            .fillMaxSize()
+            .verticalScroll(rememberScrollState()),
         horizontalAlignment = Alignment.CenterHorizontally
+
     ) {
         Text(
             text = stringResource(R.string.translate),
             style = TextStyle(fontSize = 30.sp, fontFamily = FontFamily.SansSerif),
             modifier = Modifier
-                    .padding(bottom = 10.dp)
+                .padding(bottom = 10.dp)
         )
         Text(
             text = stringResource(R.string.paragraph),
-                    modifier = Modifier.padding(10.dp) // Adjust padding as needed
+                    modifier = Modifier
+                        .padding(10.dp) // Adjust padding as needed
+                        .height(400.dp)
+                        .verticalScroll(rememberScrollState())
         )
 //        Text(
 //            text = stringResource(R.string.select_locale),
@@ -80,7 +89,10 @@ fun DropDownLanguageSelector(
     var expanded by remember { mutableStateOf(false) }
     val context = LocalContext.current
 
-    Column(modifier = Modifier.padding(16.dp)) {
+    Column(
+        modifier = Modifier.padding(16.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
         Spacer(modifier = Modifier.padding(8.dp))
         Text(
             text = "Select Language",
